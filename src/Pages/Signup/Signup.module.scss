@@ -1,0 +1,40 @@
+.Signup-form{
+  max-width: 360px;
+  margin: 60px auto;
+  padding: 20px;
+
+  label {
+    display: block;
+    margin: 30px auto;
+  }
+
+  button {
+    background: none;
+    border: 2px solid #1f9751;
+    padding: 6px 12px;
+    border-radius: 4px;
+    //color: #1f9751;
+    color: Red;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1em;
+    color: rgb(9, 9, 9);
+  }
+  button:hover {
+    background: #1f9751;
+    color: #fff;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  input {
+    padding: 8px 6px;
+    font-size: 1em;
+    color: #777;
+    width: 100%;
+  }
+}
+
